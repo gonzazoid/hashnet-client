@@ -75,7 +75,7 @@ const uploadFile = () => {
 document.getElementById("upload").addEventListener("click", uploadFile);
 ```
 
-##### post message (like in messenger)
+##### post message (like in a messenger)
 
 ```JavaScript
 import { postMessage } from "hashnet-client";
