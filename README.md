@@ -12,7 +12,7 @@ npm install hashnet-client
 ##### upload file
 
 ``upload-file.html``
-```
+```html
 <html>
   <head>
     <style>
@@ -49,7 +49,7 @@ npm install hashnet-client
 
 ``upload-file.js``
 
-```
+```JavaScript
 import { publisHashMessage } from "hashnet-client";
 
 const onFileChange = () => {
@@ -77,7 +77,7 @@ document.getElementById("upload").addEventListener("click", uploadFile);
 
 ##### post message (like in messenger)
 
-```
+```JavaScript
 import { postMessage } from "hashnet-client";
 
 const comment = "I disapprove of what you say, but I will defend to the death your right to say it.";
