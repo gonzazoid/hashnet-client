@@ -45,7 +45,7 @@ npm install hashnet-client
       <span id="hash"></span>
     </div>
     <script src="hash://sha256/upload-file.js"></script>
-    <!-- you have to use hashnet-util to transform this url to proper #Net url -->
+    <!-- you have to use hashnet-utils to transform this url to proper #Net url -->
     <!-- https://www.npmjs.com/package/hashnet-utils -->
     <!-- https://github.com/gonzazoid/hashnet-utils -->
   </body>
