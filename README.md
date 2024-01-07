@@ -9,6 +9,8 @@ npm install hashnet-client
 
 #### Usage
 
+ATTENTION! This package only works in [#Net build of chromium](https://github.com/gonzazoid/chromium/tree/feature/hash-net-draft)!
+
 ##### upload file
 
 ``upload-file.html``
