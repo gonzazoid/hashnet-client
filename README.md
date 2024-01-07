@@ -91,7 +91,7 @@ const relatedTo = "https://www.gnu.org/licenses/gpl-3.0.html#license-text";
 // then signed message (by signing hash of message body) which will be available by signed:// or related:// links
 postMessage(comment, label, nonce, relatedTo)
   .then(messageInHashNetFormat => {
-    // and returns message in #Net format
-    // with editable flag, calculated hash of comment and everything
+    // and returns the message in #Net format
+    // with editable flag, calculated hash of the comment and everything
   })
 ```
