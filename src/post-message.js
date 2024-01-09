@@ -7,8 +7,9 @@ const postMessage = async (message, label, nonce, relatedTo) => {
     hash,
     label,
     nonce,
-    relatedTo,
   };
+  if (relatedTo) data.relatedTo = relatedTo;
+
   const response = await publishSignedMessage(data);
   if (response.status !== 200) throw new Error();
   data.editable = true;

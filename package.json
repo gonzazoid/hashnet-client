@@ -1,6 +1,6 @@
 {
   "name": "hashnet-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Collection of functions making #Net interactions easier",
   "main": "index.js",
   "type": "module",
